@@ -2,3 +2,42 @@
   width: 100%;
   height: 75vh;
 }
+.tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.title p {
+  margin: 0px;
+  font-size: 20px;
+  color: rgb(56, 56, 56);
+}
+.title h1 {
+  margin: 0px;
+  font-size: 80px;
+  font-weight: 800;
+}
+.btn button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.btn button:hover {
+  background-color: #474747;
+}
